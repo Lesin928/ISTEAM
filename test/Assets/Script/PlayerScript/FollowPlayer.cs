@@ -11,7 +11,7 @@ public class FollowPlayer : MonoBehaviour
     {
         fixedZ = transform.position.z; // 초기 Z값 저장
     }
-
+       
     void LateUpdate()
     {
         Vector3 targetPosition = new Vector3(player.position.x, player.position.y, fixedZ); // Z값 유지
