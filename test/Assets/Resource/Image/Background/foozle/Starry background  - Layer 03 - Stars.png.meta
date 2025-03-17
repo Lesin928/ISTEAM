@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 443688a7a39626b42a52c18d907775bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1417524922676646393
+    second: Starry background  - Layer 03 - Stars_0
+  - first:
+      213: -273151546127622547
+    second: Starry background  - Layer 03 - Stars_1
+  - first:
+      213: -8267852671267660338
+    second: Starry background  - Layer 03 - Stars_2
+  - first:
+      213: 3661116501096259214
+    second: Starry background  - Layer 03 - Stars_3
+  - first:
+      213: 3133412201853786592
+    second: Starry background  - Layer 03 - Stars_4
+  - first:
+      213: 8628546910463351489
+    second: Starry background  - Layer 03 - Stars_5
+  - first:
+      213: 5953268969676394046
+    second: Starry background  - Layer 03 - Stars_6
+  - first:
+      213: -6470211695698109078
+    second: Starry background  - Layer 03 - Stars_7
+  - first:
+      213: 8250151580466994547
+    second: Starry background  - Layer 03 - Stars_8
+  - first:
+      213: 1626864434287024444
+    second: Starry background  - Layer 03 - Stars_9
+  - first:
+      213: 8671989116876389534
+    second: Starry background  - Layer 03 - Stars_10
+  - first:
+      213: 7089814882218288212
+    second: Starry background  - Layer 03 - Stars_11
+  - first:
+      213: 224126566975440135
+    second: Starry background  - Layer 03 - Stars_12
+  - first:
+      213: -7805406383165835384
+    second: Starry background  - Layer 03 - Stars_13
+  - first:
+      213: -7595682207441524659
+    second: Starry background  - Layer 03 - Stars_14
+  - first:
+      213: -4556851709697518591
+    second: Starry background  - Layer 03 - Stars_15
+  - first:
+      213: -3287687556942320834
+    second: Starry background  - Layer 03 - Stars_16
+  - first:
+      213: 3826642166239676822
+    second: Starry background  - Layer 03 - Stars_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 21
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e689bd790f35ce0800000000000000
+      internalID: -1417524922676646393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_1
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 9
+        width: 181
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ed633bd12953cf0800000000000000
+      internalID: -273151546127622547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_2
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 21
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd93d9eccfa24d80800000000000000
+      internalID: -8267852671267660338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_3
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 9
+        width: 181
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ed9217f06eec230800000000000000
+      internalID: 3661116501096259214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_4
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 21
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e99e5acbcd1c7b20800000000000000
+      internalID: 3133412201853786592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_5
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 9
+        width: 181
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca56f5f2b1ceb770800000000000000
+      internalID: 8628546910463351489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_6
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 21
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ecaed06924e9250800000000000000
+      internalID: 5953268969676394046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_7
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 11
+        width: 178
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d16505eb03536a0800000000000000
+      internalID: -6470211695698109078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_8
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 21
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ddcd8b62d6e7270800000000000000
+      internalID: 8250151580466994547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_9
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 9
+        width: 181
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39156f5598c39610800000000000000
+      internalID: 1626864434287024444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_10
+      rect:
+        serializedVersion: 2
+        x: 3294
+        y: 21
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c7877d728195870800000000000000
+      internalID: 8671989116876389534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_11
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 9
+        width: 181
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45426e96215146260800000000000000
+      internalID: 7089814882218288212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_12
+      rect:
+        serializedVersion: 2
+        x: 3934
+        y: 21
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7058c49dce14c1300800000000000000
+      internalID: 224126566975440135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_13
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 9
+        width: 181
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88775d3df30ada390800000000000000
+      internalID: -7805406383165835384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_14
+      rect:
+        serializedVersion: 2
+        x: 4574
+        y: 21
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4861b6a647b69690800000000000000
+      internalID: -7595682207441524659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_15
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 9
+        width: 181
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1041955638fc2c0c0800000000000000
+      internalID: -4556851709697518591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_16
+      rect:
+        serializedVersion: 2
+        x: 5214
+        y: 21
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b2bfbf599cf52d0800000000000000
+      internalID: -3287687556942320834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starry background  - Layer 03 - Stars_17
+      rect:
+        serializedVersion: 2
+        x: 5582
+        y: 11
+        width: 178
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6994f3996c6fa1530800000000000000
+      internalID: 3826642166239676822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Starry background  - Layer 03 - Stars_0: -1417524922676646393
+      Starry background  - Layer 03 - Stars_1: -273151546127622547
+      Starry background  - Layer 03 - Stars_10: 8671989116876389534
+      Starry background  - Layer 03 - Stars_11: 7089814882218288212
+      Starry background  - Layer 03 - Stars_12: 224126566975440135
+      Starry background  - Layer 03 - Stars_13: -7805406383165835384
+      Starry background  - Layer 03 - Stars_14: -7595682207441524659
+      Starry background  - Layer 03 - Stars_15: -4556851709697518591
+      Starry background  - Layer 03 - Stars_16: -3287687556942320834
+      Starry background  - Layer 03 - Stars_17: 3826642166239676822
+      Starry background  - Layer 03 - Stars_2: -8267852671267660338
+      Starry background  - Layer 03 - Stars_3: 3661116501096259214
+      Starry background  - Layer 03 - Stars_4: 3133412201853786592
+      Starry background  - Layer 03 - Stars_5: 8628546910463351489
+      Starry background  - Layer 03 - Stars_6: 5953268969676394046
+      Starry background  - Layer 03 - Stars_7: -6470211695698109078
+      Starry background  - Layer 03 - Stars_8: 8250151580466994547
+      Starry background  - Layer 03 - Stars_9: 1626864434287024444
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

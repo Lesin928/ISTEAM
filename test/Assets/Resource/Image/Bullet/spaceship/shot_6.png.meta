@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: bd809cc0256b6ed4dbd4a01d74cb8823
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7638197051015478706
+    second: shot6_0
+  - first:
+      213: -793203337134739258
+    second: shot6_1
+  - first:
+      213: 4846785681139914834
+    second: shot6_2
+  - first:
+      213: 3077293628555370533
+    second: shot6_3
+  - first:
+      213: -2553043929416387154
+    second: shot6_4
+  - first:
+      213: -4457103445349348225
+    second: shot6_5
+  - first:
+      213: 6696343934222877487
+    second: shot6_6
+  - first:
+      213: 8539641513242410822
+    second: shot6_7
+  - first:
+      213: -4494424278461005749
+    second: shot6_8
+  - first:
+      213: 5413029278502937563
+    second: shot6_9
+  - first:
+      213: -4715147613427124529
+    second: shot6_10
+  - first:
+      213: 5786262799206215103
+    second: shot6_11
+  - first:
+      213: -4464639684955249049
+    second: shot6_12
+  - first:
+      213: 5736931447037200528
+    second: shot6_13
+  - first:
+      213: 8310321378359157107
+    second: shot6_14
+  - first:
+      213: 6448185263959457971
+    second: shot6_15
+  - first:
+      213: -7189607421356510651
+    second: shot6_16
+  - first:
+      213: -5090213512008408623
+    second: shot6_17
+  - first:
+      213: -1136604124932988548
+    second: shot6_18
+  - first:
+      213: -1718572057955021574
+    second: shot6_19
+  - first:
+      213: 3365809088392317400
+    second: shot6_20
+  - first:
+      213: 2387946383165151407
+    second: shot6_21
+  - first:
+      213: -41771237394683127
+    second: shot6_22
+  - first:
+      213: -4546885778595709454
+    second: shot6_23
+  - first:
+      213: -4356603613715109830
+    second: shot6_24
+  - first:
+      213: -5795621649199339019
+    second: shot6_25
+  - first:
+      213: -5641796854675919015
+    second: shot6_26
+  - first:
+      213: 7426998976499122805
+    second: shot6_27
+  - first:
+      213: -9012739283355261479
+    second: shot6_28
+  - first:
+      213: -8982507596232829518
+    second: shot6_29
+  - first:
+      213: -6204168291578966114
+    second: shot6_30
+  - first:
+      213: -2668942582968495219
+    second: shot6_31
+  - first:
+      213: -8776442192742173773
+    second: shot6_32
+  - first:
+      213: -7054016157250338573
+    second: shot6_33
+  - first:
+      213: -3176664708239052010
+    second: shot6_34
+  - first:
+      213: -4679732563959391284
+    second: shot6_35
+  - first:
+      213: -7381021858794142640
+    second: shot6_36
+  - first:
+      213: -4191794737415482480
+    second: shot6_37
+  - first:
+      213: -1195116661608862617
+    second: shot6_38
+  - first:
+      213: -6965416463636028108
+    second: shot6_39
+  - first:
+      213: 3398197039051001016
+    second: shot6_40
+  - first:
+      213: -4963705512286993241
+    second: shot6_41
+  - first:
+      213: -4727233745626624090
+    second: shot6_42
+  - first:
+      213: 1338001234516458262
+    second: shot6_43
+  - first:
+      213: 1785074517378320781
+    second: shot6_44
+  - first:
+      213: -54570932847124716
+    second: shot6_45
+  - first:
+      213: -854172172846912378
+    second: shot6_46
+  - first:
+      213: 1606332670438205196
+    second: shot6_47
+  - first:
+      213: 1208363475149503741
+    second: shot6_48
+  - first:
+      213: -8940250650478624045
+    second: shot6_49
+  - first:
+      213: -2266149772679007912
+    second: shot6_50
+  - first:
+      213: -8913802457769990039
+    second: shot6_51
+  - first:
+      213: 4249718395315759101
+    second: shot6_52
+  - first:
+      213: -8637439001624173119
+    second: shot6_53
+  - first:
+      213: -6384179917438272818
+    second: shot6_54
+  - first:
+      213: 9168206551734973447
+    second: shot6_55
+  - first:
+      213: 330640696833690973
+    second: shot6_56
+  - first:
+      213: -4685268688264940187
+    second: shot6_57
+  - first:
+      213: -3200437988397512193
+    second: shot6_58
+  - first:
+      213: 5601798694193374527
+    second: shot6_59
+  - first:
+      213: -1389138392380314646
+    second: shot6_60
+  - first:
+      213: 2035936187098654085
+    second: shot6_61
+  - first:
+      213: 2570797461799900752
+    second: shot6_62
+  - first:
+      213: -1891467862184132314
+    second: shot6_63
+  - first:
+      213: 8325866160714711180
+    second: shot6_64
+  - first:
+      213: 7991807989923841629
+    second: shot6_65
+  - first:
+      213: -4787655512177208905
+    second: shot6_66
+  - first:
+      213: -8377421922777071604
+    second: shot6_67
+  - first:
+      213: -1635230031040138680
+    second: shot6_68
+  - first:
+      213: -3073677937845224825
+    second: shot6_69
+  - first:
+      213: -172396717620577882
+    second: shot6_70
+  - first:
+      213: -3733766766772230327
+    second: shot6_71
+  - first:
+      213: 9062083462436024859
+    second: shot6_72
+  - first:
+      213: 2418575911073489452
+    second: shot6_73
+  - first:
+      213: 8471580482107863883
+    second: shot6_74
+  - first:
+      213: 8569208714032161434
+    second: shot6_75
+  - first:
+      213: 6129485618427119890
+    second: shot6_76
+  - first:
+      213: 8383031085165075273
+    second: shot6_77
+  - first:
+      213: 9126031461207496680
+    second: shot6_78
+  - first:
+      213: 2496680510862478380
+    second: shot6_79
+  - first:
+      213: -8772590147570565880
+    second: shot6_80
+  - first:
+      213: 43005252734208139
+    second: shot6_81
+  - first:
+      213: 3531189123300751795
+    second: shot6_82
+  - first:
+      213: -9059321523624244882
+    second: shot6_83
+  - first:
+      213: 7637050208161766464
+    second: shot6_84
+  - first:
+      213: -4353860529865769949
+    second: shot6_85
+  - first:
+      213: -3471709545193065948
+    second: shot6_86
+  - first:
+      213: -289853964034344283
+    second: shot6_87
+  - first:
+      213: -8052504871582311274
+    second: shot6_88
+  - first:
+      213: 4072373839031328207
+    second: shot6_89
+  - first:
+      213: 2799540497112863457
+    second: shot6_90
+  - first:
+      213: -1730749438183844689
+    second: shot6_91
+  - first:
+      213: -5447050715029018833
+    second: shot6_92
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shot6_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34256f3ac96d8df479278f567427cbeb
+      internalID: -1578623153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot6_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b613d09c7cc103418344e80ba1d5dee
+      internalID: 427596087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot6_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ca5babc3f935040910bd3776d56d7e
+      internalID: -220107947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot6_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aea7272cda734b46b94c9a8f75de271
+      internalID: -1514278998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot6_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d672cafd2ea54d340894f34499c78430
+      internalID: 2142481722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot6_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d0d89289c73a7498a8ef3f2b14c7d8
+      internalID: -2103836007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot6_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f19c4b6c8a3e743907d5de409846df
+      internalID: 254997175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot6_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a18b835cea44f4487b759c7357672e
+      internalID: 319809715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot6_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8a6cae954c1cb4d8c1ca2977a99820
+      internalID: 1423654017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot6_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ff80d3c93e31d4f95678aaeef8dc01
+      internalID: 714375327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot6_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4875c316704ec39429e75bb79f54633e
+      internalID: 75977784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot6_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1cc70f8cd678240b809f61a1371706
+      internalID: 269778865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot6_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de392e020e20c445a8dc0b814dd44d6
+      internalID: -1560271992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot6_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ec86b244e712d42a58b4425a9f7956
+      internalID: 613697936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot6_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e14770b85bda342bf1bc9152531c20
+      internalID: -183038256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8018fc12d94fde740878cc09a2dfba11
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shot6_0: -1578623153
+      shot6_1: 427596087
+      shot6_10: 75977784
+      shot6_11: 269778865
+      shot6_12: -1560271992
+      shot6_13: 613697936
+      shot6_14: -183038256
+      shot6_2: -220107947
+      shot6_3: -1514278998
+      shot6_4: 2142481722
+      shot6_5: -2103836007
+      shot6_6: 254997175
+      shot6_7: 319809715
+      shot6_8: 1423654017
+      shot6_9: 714375327
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

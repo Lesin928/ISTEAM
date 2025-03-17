@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7e2b2abf3ebfe5547985d4afc6de3d94
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238393
+  packageName: Super Grotto Escape Pack
+  packageVersion: 1.0
+  assetPath: Assets/Super Grotto Escape/Characters/Player/player-run/player-run1.controller
+  uploadId: 545561

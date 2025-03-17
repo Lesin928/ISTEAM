@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 02ae55058836a6b45a9d4225a6a3512a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238393
+  packageName: Super Grotto Escape Pack
+  packageVersion: 1.0
+  assetPath: Assets/Super Grotto Escape/Fx/Player-Shoot/player-shoot1.controller
+  uploadId: 545561
