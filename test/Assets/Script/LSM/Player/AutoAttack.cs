@@ -1,46 +1,73 @@
 ﻿using System.Collections;
-using UnityEngine;
-using static UnityEditor.PlayerSettings;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine; 
 
-//플레이어의 자동 공격을 구현한 클래스, 각기 다른 공격 방식을 받아온다
+//플레이어의 자동 공격을 구현한 클래스 
 public class AutoAttack : MonoBehaviour
-{ 
-    public GameObject bullet; // 총알
-    public Transform pos; // 총알 생성 위치
-    public float bulletSpeed = 10f; // 총알 속도   
-    public float attackSpeed; //공격 속도                              
+{
+    private HashSet<Weapon> weapons = new HashSet<Weapon>(); //무기 
+    private Coroutine attackCoroutine;
 
     private void Start()
     {
-        //플레이어 에게서
-        //공격속도 받아오기
-        //총알속도 받아오기
+        AddWeapon(GetComponentInChildren<Weapon>());
     }
 
-    void Update()
-    { 
-        StartCoroutine(Fire());
-    }
-
-    IEnumerator Fire()
-    { 
-        // 마우스 방향 
-        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mousePosition.z = 0f; // 2D 환경에서 Z 좌표 고정
-        Vector2 direction = (mousePosition - pos.position).normalized; // 방향 벡터로 정규화
-
-        // 총알 생성 및 방향 설정
-        GameObject newBullet = Instantiate(bullet, pos.position, Quaternion.identity);
-        Rigidbody2D rb = newBullet.GetComponent<Rigidbody2D>();
-
-        if (rb != null)
+    private void Update()
+    {   
+        if (weapons.Count == 0) //무기가 없다
         {
-            rb.linearVelocity = direction * bulletSpeed; //  일정 속도로 발사
+            if (attackCoroutine != null) //공격중이면 코루틴 중지
+            {
+                StopCoroutine(attackCoroutine);
+                attackCoroutine = null;
+            }
         }
-
-        // 🔹 파워 값에 따른 발사 속도 조절
-        float fireDelay = Mathf.Clamp(0.2f - (attackSpeed * 0.02f), 0.05f, 0.2f);
-
-        yield return new WaitForSeconds(fireDelay); 
+        else //무기가 있다
+        {
+            if (attackCoroutine == null) //공격하고 있지 않으면 코루틴 시작
+            { 
+                attackCoroutine = StartCoroutine(AttackRoutine());
+            }
+            
+        }
     }
+
+
+    IEnumerator AttackRoutine()
+    { 
+        while (weapons.Count > 0)
+        { 
+            foreach (Weapon weapon in weapons)
+            { 
+                weapon.WeaponAttack();// 무기별 공격 실행
+            }
+            // 가장 빠른 무기의 attackSpeed 만큼 대기 후 다시 실행
+            float minAttackSpeed = Mathf.Min(weapons.Select(w => w.attackSpeed).ToArray());
+            yield return new WaitForSeconds(minAttackSpeed);
+
+        }
+        attackCoroutine = null; // 무기 리스트가 비어지면 코루틴 종료
+    }
+
+    public void AddWeapon(Weapon weapon)
+    {
+        weapons.Add(weapon);
+    }
+
+    public void RemoveWeapon(Weapon weapon)
+    {
+        if (weapons.Contains(weapon))
+        {
+            weapons.Remove(weapon);
+            if (weapons.Count == 0 && attackCoroutine != null)
+            {
+                StopCoroutine(attackCoroutine);
+                attackCoroutine = null;
+            }
+        }
+    }
+
+
 }
