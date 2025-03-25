@@ -6,6 +6,9 @@ TagManager:
   tags:
   - BackGround
   - Monster
+  - Boss
+  - Monster1
+  - Shield
   layers:
   - Default
   - TransparentFX
@@ -13,13 +16,13 @@ TagManager:
   - 
   - Water
   - UI
+  - Effect
+  - Player
+  - Boss
+  - Monster
+  - 
+  - 
   - PossProssing
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
   - 
   - 
   - 
