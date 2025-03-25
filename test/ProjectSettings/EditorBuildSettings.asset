@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/LSM/GameScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scene/dbdb602/Scene/Start.unity
+    guid: 2eca0041772718c46a1cd43c8398cd7a
+  - enabled: 1
+    path: Assets/Scene/dbdb602/Scene/Main_UI.unity
+    guid: dcd45c47c15ef5649b8c8d6c71efe877
+  - enabled: 0
+    path: Assets/Scene/callia_kim/Background.unity
+    guid: 67dc0ae1085d7e64aa70965cd3cec2a1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
