@@ -21,6 +21,20 @@ public class PlayerControll : MonoBehaviour
             moveSpeed = 1;
         }
     }
+    public void Stop()
+    {
+        if (moveSpeed != 0)
+        {
+            moveSpeed = 0;
+        }
+    }
+    public void StartMove()
+    {
+        if (moveSpeed == 0)
+        {
+            moveSpeed = player.moveSpeed;
+        }
+    }
 
     void Update()
     {

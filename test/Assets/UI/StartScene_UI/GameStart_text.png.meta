@@ -1,0 +1,408 @@
+fileFormatVersion: 2
+guid: dbdd771aed8b3dc40b172e394bddaf87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2175367032091768763
+    second: GameStart_text_0
+  - first:
+      213: -2846064241423663023
+    second: GameStart_text_1
+  - first:
+      213: -7776682521009116323
+    second: GameStart_text_2
+  - first:
+      213: 1621711095129182018
+    second: GameStart_text_3
+  - first:
+      213: 5142284453589185399
+    second: GameStart_text_4
+  - first:
+      213: 734822162070090900
+    second: GameStart_text_5
+  - first:
+      213: 4602204413475386816
+    second: GameStart_text_6
+  - first:
+      213: 2929100995079268973
+    second: GameStart_text_7
+  - first:
+      213: 8037259910732398987
+    second: GameStart_text_8
+  - first:
+      213: 7807311579840160582
+    second: GameStart_text_9
+  - first:
+      213: -3174210447937199358
+    second: GameStart_text_10
+  - first:
+      213: -8647745578142193185
+    second: GameStart_text_11
+  - first:
+      213: -6398651241617611011
+    second: GameStart_text_12
+  - first:
+      213: 3927030261873517176
+    second: GameStart_text_13
+  - first:
+      213: 7876513124516657298
+    second: GameStart_text_14
+  - first:
+      213: -673765136925926232
+    second: GameStart_text_15
+  - first:
+      213: 13478983724565085
+    second: GameStart_text_16
+  - first:
+      213: 6376432866713188666
+    second: GameStart_text_17
+  - first:
+      213: -7509685763519775548
+    second: GameStart_text_18
+  - first:
+      213: -5973315541463616164
+    second: GameStart_text_19
+  - first:
+      213: -6592809601157779298
+    second: GameStart_text_20
+  - first:
+      213: 2893660358032488475
+    second: GameStart_text_21
+  - first:
+      213: 5663171743936117480
+    second: GameStart_text_22
+  - first:
+      213: 6731883164528380329
+    second: GameStart_text_23
+  - first:
+      213: 5457218503046902448
+    second: GameStart_text_24
+  - first:
+      213: -1570996826166345492
+    second: GameStart_text_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GameStart_text_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 291
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1cce807be20e1459e2580636f96360
+      internalID: -856857911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameStart_text_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 291
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa51b78689a0f749b91fd09bd44a198
+      internalID: 730767744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameStart_text_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 291
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0d95b5f2f104542be510cd65db6917
+      internalID: 1779042035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameStart_text_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 291
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ae8dc58a60b47448b7210ddf458442
+      internalID: -329923646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameStart_text_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 291
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fee7b62d4ec7941976277bc75dcb87
+      internalID: 2069142994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameStart_text_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 291
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c873e26c3d357564bbefa1ee8b23d609
+      internalID: -660236832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameStart_text_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 291
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207ec4b2f7683a748a8b23b57e12b3ec
+      internalID: 1769392146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3bf3de52700c37d4daea148347172afd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GameStart_text_0: -856857911
+      GameStart_text_1: 730767744
+      GameStart_text_2: 1779042035
+      GameStart_text_3: -329923646
+      GameStart_text_4: 2069142994
+      GameStart_text_5: -660236832
+      GameStart_text_6: 1769392146
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

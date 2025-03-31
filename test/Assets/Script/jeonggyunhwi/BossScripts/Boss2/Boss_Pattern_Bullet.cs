@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Boss_Pattern_Bullet : MonoBehaviour
 {
+    private float attack = 4.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -23,7 +24,8 @@ public class Boss_Pattern_Bullet : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             //플레이어에게 데미지 입히기
-
+            //추가해야 함
+            collision.GetComponent<Player>().TakeDamage(attack);
             //삭제
             Destroy(gameObject);
         }

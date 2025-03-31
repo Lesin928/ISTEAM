@@ -1,30 +1,70 @@
+ï»¿using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : Character
 {
+    
 
-    //HP °ü·Ã
-    //ÃÖ´ë Ã¼·ÂÀ» ¼³Á¤ÇÏ°í ÇöÀç Ã¼·ÂÀ» ±×¿Í ¸Â°Ô ¼¼ÆÃ
-    public override void SetHp(float hp)
+    public int playerLevel = 1; //í”Œë ˆì´ì–´ ë ˆë²¨
+    private void Awake()
     {
-        this.maxHp = hp;
-        this.currentHp = hp;
+        if (SceneManager.GetActiveScene().name == "GameScene")
+        {
+            //ìŠ¤íƒ¯ ì´ˆê¸°í™”
+            armor = 5; //ë°©ì–´ë ¥
+            attack = 10; //ê³µê²©ë ¥
+            attackSpeed = 0.5f; //ê³µê²©ì†ë„
+            moveSpeed = 5; //ì´ë™ì†ë„  
+            critical = 0.2f; //ì¹˜ëª…íƒ€ í™•ë¥ 
+            criticalDamage = 1.5f; //ì¹˜ëª…íƒ€ í”¼í•´ 
+        }
+        maxHp = 1000000; //ìµœëŒ€ì²´ë ¥
+        currentHp = maxHp; //í˜„ì¬ ì²´ë ¥
     }
+    public void LevelUp()
+    {
+        playerLevel++;
+        SetAttack(1);
+        SetArmor(1);
+        HealHp(maxHp / 4f);
+    }
+    
     public override float GetHp()
     {
         return currentHp;
     }
 
-    //¹æ¾î·Â¸¸Å­ ÇÇÇØ¸¦ °æ°¨ÇÏ¿© µ¥¹ÌÁö ¹ŞÀ½
-    //¿À¹öÇÃ·Î¿ì ¹æÁö¸¦ À§ÇØ double ¸í½ÃÀû º¯È¯ ÈÄ °è»ê
+    //ë°©ì–´ë ¥ë§Œí¼ í”¼í•´ë¥¼ ê²½ê°í•˜ì—¬ ë°ë¯¸ì§€ ë°›ìŒ
+    //ì˜¤ë²„í”Œë¡œìš° ë°©ì§€ë¥¼ ìœ„í•´ double ëª…ì‹œì  ë³€í™˜ í›„ ê³„ì‚°
     public override void TakeDamage(float damage)
     {
+        AudioManager.Instance.PlaySFX("Player", "Player_Hit");
+        if (damage == 0)
+        {
+            damage = 1;
+        }
+
         currentHp -= (float)((double)damage * (double)damage / ((double)armor + (double)damage));
+
+        if (currentHp <= 0)
+        {
+            currentHp = 0;
+            //í”Œë ˆì´ì–´ ì‚¬ë§
+            AudioManager.Instance.PlaySFX("Player", "Player_Death");
+            Destroy(gameObject);
+            //ê²Œì„ì˜¤ë²„ ì²˜ë¦¬
+            GameManager.Instance.OverGame();
+        }
     }
 
-    //Ã¼·ÂÀ» È¸º¹ÇÔ
-    public override void HealHp(float Heal)
+    public void SetMaxHp(float point)
+    {
+        maxHp += point;
+    }
+    //ì²´ë ¥ì„ íšŒë³µí•¨
+    public void HealHp(float Heal)
     {
         if (maxHp < currentHp + Heal)
         {
@@ -35,5 +75,39 @@ public class Player : Character
             currentHp += Heal;
         }
     }
+    public void SetArmor(float point)
+    {
+        armor += point;
+    }    
+    public void SetAttack(float point)
+    {
+        attack += point;
+    }
+    public void SetAttackSpeed(float point)
+    {
+        //ê¸°ë³¸ ê³µê²© ë¹ˆë„: 0.5 ê³µê²©/ì´ˆ
+        //point % ì¦ê°€ í›„ ê³µê²© ë¹ˆë„: 0.5 Ã— 1.2 = 0.6 ê³µê²©/ì´ˆ    
+        //ìƒˆë¡œìš´ ê³µê²© ê°„ê²©: 1 / 0.6 â‰ˆ 1.67ì´ˆ
+        attackSpeed = attackSpeed / (1 + (point/100)); 
+        attackSpeed = (float)Math.Floor(attackSpeed * 1000) / 1000; //ì†Œìˆ˜ì  3ìë¦¬ ê¹Œì§€ë§Œ
+    }
+    public void SetMoveSpeed(float point)
+    {
+        moveSpeed += point;
+    }
+    public void SetCritical(float point)
+    {
+        critical *= point / 100;
+        if (critical > 1f)
+        {
+            critical = 1f;
+        }        
+    }
+    public void SetCriticalDamage(float point)
+    {
+        criticalDamage *= point / 100f;
+    }
+
+
 }
 

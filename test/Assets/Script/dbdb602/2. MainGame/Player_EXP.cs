@@ -19,7 +19,5 @@ public class Player_EXP : MonoBehaviour
             UI_GameManager.instance.MonsterKill(10f); //임시로 10으로 설정
         }
 
-        UI_GameManager.instance.UpdatePlayerEXP();
-
     }
 }

@@ -877,7 +877,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1891404399254563287}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.006, y: 0.006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1003,11 +1003,7 @@ MonoBehaviour:
   - {fileID: 1570050775266980432, guid: 29a88950b07a1214497e5bcafab9246b, type: 3}
   - {fileID: 6782314656405689922, guid: 51c90eb1e8a0b6542a0e3f332151261e, type: 3}
   - {fileID: 7719014369443916602, guid: c6207085bb4c3da4390ab132c9053fc2, type: 3}
-  bossPrefabs:
-  - {fileID: 2048488859087709253, guid: 8a1da50ba580afb409dea2578d9a3b72, type: 3}
-  - {fileID: 9189120422144093594, guid: fde7c422497ef5b4ca7c995c18725053, type: 3}
-  - {fileID: 1839342933434426179, guid: d0523935a11dbbf4a9d3cde5be3043b0, type: 3}
-  - {fileID: 1279245342140158555, guid: 600a86418f4884a4c9b590d3876fedc8, type: 3}
+  bossPrefabs: []
   currentBoss: {fileID: 0}
 --- !u!1 &1937196171788285234
 GameObject:

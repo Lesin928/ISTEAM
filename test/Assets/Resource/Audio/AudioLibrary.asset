@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c5eca11d3cd9843bd6fad497fe530b, type: 3}
+  m_Name: AudioLibrary
+  m_EditorClassIdentifier: 
+  soundCategories:
+  - categoryName: BGM
+    clips:
+    - {fileID: 8300000, guid: 732c11c0817053448935c21344a71520, type: 3}
+    - {fileID: 8300000, guid: 5b70e7c810ae46b43999b9f46f09cc78, type: 3}
+    - {fileID: 8300000, guid: b3ac4dfa646326945912bfe643ae04ef, type: 3}
+    - {fileID: 8300000, guid: 173e6a40334f232458934114fd93ed65, type: 3}
+    - {fileID: 8300000, guid: b4771ec5d04c91a48b5930c91d2b988a, type: 3}
+    - {fileID: 8300000, guid: e084bb0294a652a4ba6076b1409171db, type: 3}
+  - categoryName: System
+    clips:
+    - {fileID: 8300000, guid: ee5b86f353d89494e83947903983fef0, type: 3}
+    - {fileID: 8300000, guid: 1709e0e2862312740b3dc46ce2d92a52, type: 3}
+    - {fileID: 8300000, guid: 4a676ead7a14c87498f3dcfc0fe0ffa7, type: 3}
+    - {fileID: 8300000, guid: 0a1c1b68716f61f4fa343f30e9dca6e1, type: 3}
+  - categoryName: UI
+    clips:
+    - {fileID: 8300000, guid: c546f1f2ab976b44c92e4d38393010b8, type: 3}
+    - {fileID: 8300000, guid: 7553b71b17bacba43b1d1c92db8ae465, type: 3}
+    - {fileID: 8300000, guid: e26091b3aed58614c88a848a60255f7f, type: 3}
+  - categoryName: Player
+    clips:
+    - {fileID: 8300000, guid: 0f6521b391b8a6b41b380e4cc4e25925, type: 3}
+    - {fileID: 8300000, guid: dd9d07b514e72b046b3daa42c278843d, type: 3}
+    - {fileID: 8300000, guid: 13c62fa307ca26648beb4d6fe6d22271, type: 3}
+    - {fileID: 8300000, guid: 106f24704c7562640bf717a66fca12c4, type: 3}
+    - {fileID: 8300000, guid: 73e6154b18b95554db3224ef16eda108, type: 3}
+    - {fileID: 8300000, guid: 0ca322879f325514aa8151fda7de58e2, type: 3}
+    - {fileID: 8300000, guid: de9cb03be273c494c8bd9338751c37b7, type: 3}
+    - {fileID: 8300000, guid: b0f70fc3178d9b74db0504113eb754ac, type: 3}
+  - categoryName: Mob
+    clips:
+    - {fileID: 8300000, guid: 0436d8f92f3d4d94da4cb8085572c43f, type: 3}
+  - categoryName: Boss
+    clips:
+    - {fileID: 8300000, guid: 3ecb49be1e7a1514fb2771682c3e88be, type: 3}
+    - {fileID: 8300000, guid: faeb59928b814714683d373a8397f4fc, type: 3}
+    - {fileID: 8300000, guid: 0fbb2bee198581c4eb761066887c4790, type: 3}
+    - {fileID: 8300000, guid: 37286e78ac8f25d43a6f7a70fc6b6efe, type: 3}
+    - {fileID: 8300000, guid: 9fc1eacad4f08d9458dfd0ec435620f5, type: 3}
+    - {fileID: 8300000, guid: d01edfdc76dbb6a4780e41997829c0cc, type: 3}
+    - {fileID: 8300000, guid: e0603bec32a7b03489032beac15dce92, type: 3}
+    - {fileID: 8300000, guid: e1461de92e60f484f98f4751eafc6b4d, type: 3}

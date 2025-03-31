@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1601303899725848162}
   - component: {fileID: 1504814259220227262}
   - component: {fileID: 6692903054892325486}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Lv.
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 5147988591337367640}
   - component: {fileID: 1355671513869136607}
   - component: {fileID: 7338466141639930713}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Profile_Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,7 +114,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -898.9, y: 404.48645}
+  m_AnchoredPosition: {x: -897.2, y: 404.48645}
   m_SizeDelta: {x: 9.44519, y: 5.927002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1355671513869136607
@@ -145,8 +145,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -477556913, guid: 39916107a9ece6644acd207b91ed1c3a, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -165,7 +165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7622844169596090297}
   - component: {fileID: 665234420350570181}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Sun HP_Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 3572291213203710248}
   - component: {fileID: 6074283539948007455}
   - component: {fileID: 8988434031733764991}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: EXP_Line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,7 +291,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3319230923465837097}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: EXP_Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +317,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -681.4, y: -100.7}
+  m_AnchoredPosition: {x: -681.4, y: -100.70001}
   m_SizeDelta: {x: 315.99573, y: 55.392212}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1613340416967151473
@@ -329,7 +329,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1672411784791255749}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Profile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -369,7 +369,7 @@ GameObject:
   - component: {fileID: 5076207052602292578}
   - component: {fileID: 8690130688712686076}
   - component: {fileID: 7254649800576921168}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: HP_Line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 2277242215341390891}
   - component: {fileID: 880514798655443691}
   - component: {fileID: 2134192512248453236}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Profile_Line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -519,7 +519,7 @@ GameObject:
   - component: {fileID: 7494638457862148668}
   - component: {fileID: 8566579312490552033}
   - component: {fileID: 5161825776775404744}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Level_Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -598,7 +598,7 @@ GameObject:
   - component: {fileID: 427625904120338941}
   - component: {fileID: 3395029329942222056}
   - component: {fileID: 7022775357997843416}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: HP_Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -670,7 +670,7 @@ GameObject:
   - component: {fileID: 3163022847754391693}
   - component: {fileID: 9046346373978073162}
   - component: {fileID: 8789670449243833662}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -745,7 +745,7 @@ GameObject:
   - component: {fileID: 1579896216997320071}
   - component: {fileID: 8961327797886669602}
   - component: {fileID: 6780697587032568110}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Black_Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -820,7 +820,7 @@ GameObject:
   - component: {fileID: 9197216816762774312}
   - component: {fileID: 3022882236174880562}
   - component: {fileID: 6508070690096056846}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: EXP_bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -896,7 +896,7 @@ GameObject:
   - component: {fileID: 8244600468682765860}
   - component: {fileID: 2426695915271567134}
   - component: {fileID: 4632478504280095580}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: HP_Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -987,7 +987,7 @@ GameObject:
   - component: {fileID: 1405560909318666405}
   - component: {fileID: 3369817443956251481}
   - component: {fileID: 7422691268628936244}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Sun HP & EXP_Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1003,7 +1003,7 @@ RectTransform:
   m_GameObject: {fileID: 9048307646311419291}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.0093, y: 0.0093, z: 0.0093}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7622844169596090297}
@@ -1026,7 +1026,7 @@ Canvas:
   m_GameObject: {fileID: 9048307646311419291}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 2
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -1062,7 +1062,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &1405560909318666405
 MonoBehaviour:
   m_ObjectHideFlags: 0

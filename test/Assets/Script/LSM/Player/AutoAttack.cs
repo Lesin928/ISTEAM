@@ -8,14 +8,10 @@ public class AutoAttack : MonoBehaviour
 {
     private HashSet<Weapon> weapons = new HashSet<Weapon>(); //무기 
     private Coroutine attackCoroutine;
-
-    private void Start()
-    {
-        AddWeapon(GetComponentInChildren<Weapon>());
-    }
+    private int lastWeaponCount = 0;
 
     private void Update()
-    {   
+    {
         if (weapons.Count == 0) //무기가 없다
         {
             if (attackCoroutine != null) //공격중이면 코루틴 중지
@@ -23,32 +19,43 @@ public class AutoAttack : MonoBehaviour
                 StopCoroutine(attackCoroutine);
                 attackCoroutine = null;
             }
+            else //공격중 아니면 무기 등록
+            {
+                Weapon[] weapons = GetComponentsInChildren<Weapon>();
+                foreach (Weapon weapon in weapons)
+                {
+                    AddWeapon(weapon);
+                }
+            }
         }
         else //무기가 있다
         {
-            if (attackCoroutine == null) //공격하고 있지 않으면 코루틴 시작
-            { 
+            Debug.Log("Attack");
+            if (attackCoroutine == null || weapons.Count != lastWeaponCount) //공격하고 있지 않거나 무기 수가 변하면 코루틴 시작
+            {
+                Debug.Log("Attack12123");
+                if (attackCoroutine != null)
+                {
+                    Debug.Log("Attack121231231231");
+                    StopCoroutine(attackCoroutine); 
+                }
                 attackCoroutine = StartCoroutine(AttackRoutine());
             }
-            
         }
+        lastWeaponCount = weapons.Count;
     }
 
-
     IEnumerator AttackRoutine()
-    { 
+    {
         while (weapons.Count > 0)
-        { 
+        {
             foreach (Weapon weapon in weapons)
-            { 
-                weapon.WeaponAttack();// 무기별 공격 실행
+            {
+                weapon.WeaponAttack();// 무기별 공격 실행 
             }
-            // 가장 빠른 무기의 attackSpeed 만큼 대기 후 다시 실행
-            float minAttackSpeed = Mathf.Min(weapons.Select(w => w.attackSpeed).ToArray());
-            yield return new WaitForSeconds(minAttackSpeed);
-
+            yield return new WaitForSeconds(0.1f);
+            //0.1초마다 공격 실행
         }
-        attackCoroutine = null; // 무기 리스트가 비어지면 코루틴 종료
     }
 
     public void AddWeapon(Weapon weapon)
@@ -68,6 +75,4 @@ public class AutoAttack : MonoBehaviour
             }
         }
     }
-
-
 }

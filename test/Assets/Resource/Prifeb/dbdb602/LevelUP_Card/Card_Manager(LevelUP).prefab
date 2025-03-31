@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1152493410470644908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5535755259501059704}
+  - component: {fileID: 5933767753736269086}
+  m_Layer: 0
+  m_Name: Card_Manager(LevelUP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5535755259501059704
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152493410470644908}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5933767753736269086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152493410470644908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db786135b89f25b468503e281a2f09c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Card:
+  - {fileID: 3692616786310233658, guid: 86f2c9a6a57b3904e9090623d44f7b25, type: 3}
+  - {fileID: 3692616786310233658, guid: 44d34b7903a4e4b4e85d928f4c050564, type: 3}
+  - {fileID: 3692616786310233658, guid: e36dc54226979ae44b2eb56b20181f99, type: 3}
+  Color_Grade:
+  - {fileID: 8474129726577101275, guid: aebca741eed0b414491e5f3aad08c3de, type: 3}
+  - {fileID: -4331923008290241979, guid: 338222c7d106414449ba117f9265ff00, type: 3}
+  - {fileID: 2462559464523177097, guid: 77bf66b4d5f30884ca37523115f1afc6, type: 3}
+  - {fileID: 4116025439527715071, guid: 475adfac5bdfed148a8a1eaa247d5817, type: 3}
+  canvas: {fileID: 0}
+  Background: {fileID: 5004927435482741039, guid: 44c9e67e883bf224c84532db8daf7ed0, type: 3}
+  text: {fileID: 5733761763763745690, guid: 10d73e525d6b7054ea560fbf6ac61f1e, type: 3}
+  Volume: {fileID: 5404067008521552887, guid: cc9077cf20165264ab22c8a61da4c838, type: 3}

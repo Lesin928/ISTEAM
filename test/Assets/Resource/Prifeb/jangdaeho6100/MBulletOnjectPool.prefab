@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7335978185389794119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3221584088625310955}
+  - component: {fileID: 6979391132735284806}
+  m_Layer: 0
+  m_Name: MBulletOnjectPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3221584088625310955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7335978185389794119}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.610879, y: 5.7906055, z: -0.3675835}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6979391132735284806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7335978185389794119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b527a63c0083d1e43896616854f05f07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefabs:
+  - {fileID: 9151918575673076186, guid: 347b55f9815edd74484843086c1669e1, type: 3}
+  - {fileID: 9165952389486888948, guid: bbebb970d1d903d429a2f0b029337d82, type: 3}
+  - {fileID: 2668119909686149943, guid: 6b2d4efaf2e85744793be733b5fb7738, type: 3}
+  - {fileID: 8396660604659394512, guid: 4c77052a0ce9dbf4e813beaeb9700ff0, type: 3}
+  - {fileID: 420582922772132582, guid: 4b6ce3e7267b18043b1d813694f8a10c, type: 3}
+  - {fileID: 3674800002700404396, guid: 7542d0e259e62c642be40ceaef0560d5, type: 3}
+  - {fileID: 1103935737141134710, guid: 3258337346e8f57459b4ef2ea21dfd35, type: 3}
+  - {fileID: 5093042601562864022, guid: cdd375b997fbaea449ba56a3140bca7f, type: 3}
+  - {fileID: 4093979894683477539, guid: 3c5c54be4e6b9a849928741b68be1e18, type: 3}
+  - {fileID: 2950502508977008119, guid: 11a93df0c0552aa44aeb1590825e2f9b, type: 3}
+  - {fileID: 1081372082063156458, guid: d36ade07e9c049a4ebaae21c17433a0f, type: 3}
+  - {fileID: 558622133275399374, guid: fa81799187020a74db70897f870f0de3, type: 3}

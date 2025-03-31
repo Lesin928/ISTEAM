@@ -10,23 +10,34 @@ using UnityEngine.InputSystem;
 
 public class AncientStone : Weapon
 {
-    private void Awake()
+
+    protected static float StoneAttackSpeed = 2.0f;
+    protected static float StoneSpeed = 1.2f; 
+    private bool isOnCooldown = false; // 공격 쿨다운 상태
+
+    protected override void Awake()
     {
-        //무기 활성화시 무기 풀 생성
-        ObjectPoolManager.Instance.CreatePool<AncientStone>("AncientStone", weapon, 10);  
+        Player player = gameObject.GetComponentInParent<Player>();
+        // 무기 공격 속도 -> 플레이어 공격속도 비례
+        attackSpeed = player.attackSpeed * StoneAttackSpeed;        
+        // 무기 이동 속도 -> 플레이어 이동속도 비례
+        bulletSpeed = player.moveSpeed * StoneSpeed; 
     }
 
+    public override void CreatWeapon() //무기 풀 생성
+    {
+        ObjectPoolManager.Instance.CreatePool<StoneFlying>("AncientStone", weapon.GetComponent<StoneFlying>(), 10); 
+
+    }
     public override void WeaponAttack() //무기별 발사방법 구현
     {
-        // 현재 AncientStone 스크립트가 붙어있는 오브젝트에서 위치와 공격 속도 값 받기
-        Transform attackPosition = weaponPos; // 무기 위치 (AncientStone에 설정된 위치)
-        float attackSpeed = this.attackSpeed; // 무기 속도 (각 무기마다 다를 수 있음)
-        float bulletSpeed = this.bulletSpeed; // 총알 속도 (각 무기마다 다를 수 있음)
+        AudioManager.Instance.PlaySFX("Player", "Player_Attack_Ancient");
 
+        if (isOnCooldown)
+            return;
+        Transform attackPosition = weaponPos; // 무기 위치 (AncientStone에 설정된 위치) 
         // 총알을 풀에서 가져옴
-        StoneFying newBullet = ObjectPoolManager.Instance.GetFromPool<StoneFying>("AncientStone");
-        Debug.Log("총알 생성");
-        //Debug.Log(newBullet.gameObject.activeInHierarchy);
+        StoneFlying newBullet = ObjectPoolManager.Instance.GetFromPool<StoneFlying>("AncientStone");  
         if (newBullet != null) //총알이 null이 아닐 때 실행
         {
             newBullet.transform.position = attackPosition.position;  // 발사 위치 설정
@@ -51,21 +62,12 @@ public class AncientStone : Weapon
         {
             Debug.Log("newBullet = null");
         }
-    }
-    /*
-    private IEnumerator ReturnBulletToPool(GameObject bullet, float delay)
-    {
-        // 일정 시간 후 총알을 풀로 반환
-        yield return new WaitForSeconds(delay);
-        bullet.SetActive(false); // 총알 비활성화
-        bulletPool.ReturnToPool(bullet); // 총알 풀로 반환
-
-        ObjectPoolManager.Instance.ReturnToPool("AncientStone", gameObject);
-    }*/
-  
+    } 
     private IEnumerator FireCooldown(float delay)
-    { 
+    {
+        isOnCooldown = true;
         yield return new WaitForSeconds(delay);
+        isOnCooldown = false;
     }
 
 }

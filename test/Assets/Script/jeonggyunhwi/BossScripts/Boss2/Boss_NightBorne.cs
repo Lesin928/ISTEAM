@@ -9,37 +9,39 @@ public class Boss_NightBorne : MonoBehaviour
     //구체적인 기능 구현
     //공격, 패턴, 필살기(게이지 찰때까지 체력 못깎으면 발동, 체력 깎으면 잠시동안 그로기)
 
-    private int currentHp = 0;
+    private float currentHp = 0;
     private int count = 0;
     private bool check;
     private bool check2;
-    //public int Hp = 100;
-    IEnumerator enumerator;
+    private float weightAngle = 0f; //원형 총알에 가중되는 각도(항상 같은 위치로 발사하지 않도록설정)
+    
     Animator ani;
     [SerializeField]
     private GameObject red_circle;
     [SerializeField]
     private Transform ms;
-    
-    
+
+
     [SerializeField]
-    private Boss boss;
+    private Boss2 boss;
     [SerializeField]
     private GameObject bullet;
     [SerializeField]
     private GameObject bullet2;
     [SerializeField]
     private GameObject bullet3;
-    
+
     public GameObject guage;
     public Transform player;
 
+    private SpriteRenderer spriteRenderer;
 
     private void Awake()
     {
         BossPoolManager.Instance.CreatePool(bullet, 10);
-        BossPoolManager.Instance.CreatePool(bullet2, 40);
-        
+        BossPoolManager.Instance.CreatePool(bullet2, 60);
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -48,21 +50,29 @@ public class Boss_NightBorne : MonoBehaviour
         ani.SetBool("IsPattern", false);
         check = false;
         check2 = false;
-        enumerator = CreateBullet();
-        StartCoroutine(enumerator);
-        StartCoroutine(CircleFire());
         
+        player = GameObject.FindWithTag("Player").transform;
         guage.SetActive(false);
     }
-    IEnumerator CreateBullet()
+    void CreateBullet()
     {
-        while (true)
+        
         {
-            //Instantiate(bullet, ms.position, Quaternion.identity);
+            
             GameObject b_bullet = BossPoolManager.Instance.Get(bullet);
             b_bullet.transform.position = ms.position;
+            b_bullet.GetComponent<Homing>().dirNo = (player.position - b_bullet.transform.position).normalized;
+            if(player.position.x > b_bullet.transform.position.x)
+            {
+                b_bullet.GetComponent<Homing>().spriteRenderer.flipX = true;
+            }
+            else
+            {
+                b_bullet.GetComponent<Homing>().spriteRenderer.flipX = false;
+            }
+                b_bullet.GetComponent<Homing>().isReturned = false;
             count++;
-            yield return new WaitForSeconds(1f);
+            
             if (count == 3)
             {
                 StartCoroutine(TrippleBullet());
@@ -71,42 +81,43 @@ public class Boss_NightBorne : MonoBehaviour
 
         }
     }
-    IEnumerator CircleFire()
+    void CircleFire()
     {
-        //공격주기
-        float AttackRate = 3f;
+        
         //발사체 생성 갯수
         int count = 20;
         //발사체 사이의 각도
         float intervalAngle = 360 / count;
-        //가중되는 각도(항상 같은 위치로 발사하지 않도록설정)
-        float weightAngle = 0f;
+        
 
-        while (true)
+        for (int i = 0; i < count; i++)
         {
-            for (int i = 0; i < count; i++)
+            //발사체 생성
+            GameObject clone = BossPoolManager.Instance.Get(bullet2);
+            clone.transform.position = ms.position;
+            if (player.position.x > clone.transform.position.x)
             {
-                //발사체 생성
-                GameObject clone = BossPoolManager.Instance.Get(bullet2);
-                clone.transform.position = ms.position;
-                //발사체 이동 방향(각도)
-                float angle = weightAngle + intervalAngle * i;
-                //발사체 이동 방향(벡터)
-                //Cos(각도)라디안 단위의 각도 표현을 위해 pi/180을 곱함
-                float x = Mathf.Cos(angle * Mathf.Deg2Rad);
-                //Sin(각도)라디안 단위의 각도 표현을 위해 pi/180을 곱함
-                float y = Mathf.Sin(angle * Mathf.Deg2Rad);
-
-                //발사체 이동 방향 설정
-                clone.GetComponent<BossBullet>().Move(new Vector2(x, y));
+                clone.GetComponent<BossBullet>().spriteRenderer.flipX = true;
             }
-            //발사체가 생성되는 시작 각도 설정을 위한 변수
-            weightAngle++;
-            //3초마다 발사
-            yield return new WaitForSeconds(AttackRate);
+            else
+            {
+                clone.GetComponent<BossBullet>().spriteRenderer.flipX = false;
+            }
+            clone.GetComponent<BossBullet>().isReturned = false;
+            //발사체 이동 방향(각도)
+            float angle = weightAngle + intervalAngle * i;
+            //발사체 이동 방향(벡터)
+            //Cos(각도)라디안 단위의 각도 표현을 위해 pi/180을 곱함
+            float x = Mathf.Cos(angle * Mathf.Deg2Rad);
+            //Sin(각도)라디안 단위의 각도 표현을 위해 pi/180을 곱함
+            float y = Mathf.Sin(angle * Mathf.Deg2Rad);
 
-
+            //발사체 이동 방향 설정
+            clone.GetComponent<BossBullet>().Move(new Vector2(x, y));
         }
+        //발사체가 생성되는 시작 각도 설정을 위한 변수
+        weightAngle+=3;
+        
 
     }
 
@@ -115,9 +126,29 @@ public class Boss_NightBorne : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
         GameObject b_bullet = BossPoolManager.Instance.Get(bullet);
         b_bullet.transform.position = ms.position;
+        if (player.position.x > b_bullet.transform.position.x)
+        {
+            b_bullet.GetComponent<Homing>().spriteRenderer.flipX = true;
+        }
+        else
+        {
+            b_bullet.GetComponent<Homing>().spriteRenderer.flipX = false;
+        }
+        b_bullet.GetComponent<Homing>().dirNo = (player.position - b_bullet.transform.position).normalized;
+        b_bullet.GetComponent<Homing>().isReturned = false;
         yield return new WaitForSeconds(0.2f);
         b_bullet = BossPoolManager.Instance.Get(bullet);
         b_bullet.transform.position = ms.position;
+        if (player.position.x > b_bullet.transform.position.x)
+        {
+            b_bullet.GetComponent<Homing>().spriteRenderer.flipX = true;
+        }
+        else
+        {
+            b_bullet.GetComponent<Homing>().spriteRenderer.flipX = false;
+        }
+        b_bullet.GetComponent<Homing>().dirNo = (player.position - b_bullet.transform.position).normalized;
+        b_bullet.GetComponent<Homing>().isReturned = false;
         yield return new WaitForSeconds(0.2f);
 
 
@@ -127,7 +158,7 @@ public class Boss_NightBorne : MonoBehaviour
         for (int i = -2; i < 3; i++)
         {
             Instantiate(bullet3, player.position + new Vector3(i, i, 0), Quaternion.identity);
-            
+
         }
         for (int i = -2; i < 3; i++)
         {
@@ -140,7 +171,7 @@ public class Boss_NightBorne : MonoBehaviour
         for (int i = -2; i < 3; i++)
         {
             Instantiate(red_circle, player.position + new Vector3(i, i, 0), Quaternion.identity);
-            
+
         }
         for (int i = -2; i < 3; i++)
         {
@@ -152,62 +183,73 @@ public class Boss_NightBorne : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        AnimatorStateInfo stateInfo = ani.GetCurrentAnimatorStateInfo(0);
+        
+        if(player.position.x > transform.position.x)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else
+        {
+            spriteRenderer.flipX = false;
+            
+        }
+        AnimatorStateInfo stateInfo = ani.GetCurrentAnimatorStateInfo(0); //애니메이션 정보 받아오기
         ani.SetBool("IsBreak", false);
-        if (boss.Hp <= 90 && boss.Hp > 80 || boss.Hp <= 40 && boss.Hp > 30)
+        if (boss.GetComponent<Monster>().currentHp <= 90 && boss.GetComponent<Monster>().currentHp > 80
+            || boss.GetComponent<Monster>().currentHp <= 40 && boss.GetComponent<Monster>().currentHp > 30)
         {
             if (!check)
             {
                 check = true;
-                currentHp = boss.Hp;
+                currentHp = boss.GetComponent<Monster>().currentHp;
                 guage.GetComponent<Slider>().value = 0;
-                StopCoroutine(enumerator);
+                //StopCoroutine(enumerator);
                 check2 = false;
 
             }
             guage.SetActive(true);
-            
             ani.SetBool("IsPattern", true);
-
-
         }
 
         guage.GetComponent<Slider>().value += Time.deltaTime;
-
-        if (currentHp - boss.Hp > 20)
+        if (ani.GetBool("IsPattern"))
         {
-            
-            ani.SetBool("IsBreak", true);
-            guage.SetActive(false);
-            ani.SetBool("IsPattern", false);
-            //Debug.Log(stateInfo.IsName("Boss_NightBorne_Groggy"));
-            if (!check2)
+            if (currentHp - boss.GetComponent<Monster>().currentHp > 20) //패턴 시작 후 시간 내 체력을 깎으면 패턴 파훼 성공
             {
 
-                Debug.Log(stateInfo.normalizedTime);
-                if (stateInfo.normalizedTime >= 0.71f && stateInfo.IsName("Boss_NightBorne_Groggy"))
+                ani.SetBool("IsBreak", true);
+                guage.SetActive(false);
+                ani.SetBool("IsPattern", false);
+
+                if (!check2)
                 {
-                    StartCoroutine(enumerator);
+                    if (stateInfo.normalizedTime >= 0.71f 
+                        && stateInfo.IsName("Boss_NightBorne_Groggy")) // 받아온 애니메이션 정보를 통해 탄막패턴 일시정지하기,
+                                                                       // 온전히 그로기타임 갖도록
+                    {
+                        //StartCoroutine(enumerator);
+                        check2 = true;
+                    }
+                }
+                check = false;
+
+            }
+            else if (guage.GetComponent<Slider>().value >= 4.95)
+            {
+
+                guage.SetActive(false);
+                //패턴 발동
+                Pattern1();
+                guage.GetComponent<Slider>().value = 0;
+                ani.SetBool("IsPattern", false);
+                if (!check2)
+                {
+                    //StartCoroutine(enumerator);
                     check2 = true;
                 }
+                check = false;
             }
-            check = false;
-
-        }
-        else if (guage.GetComponent<Slider>().value >= 4.95)
-        {
-
-            guage.SetActive(false);
-            //패턴 발동
-            Pattern1();
-            guage.GetComponent<Slider>().value = 0;
-            ani.SetBool("IsPattern", false);
-            if (!check2)
-            {
-                StartCoroutine(enumerator);
-                check2 = true;
-            }
-            check = false;
         }
     }
+
 }

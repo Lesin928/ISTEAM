@@ -61,12 +61,13 @@ public class StageManagerForBG : MonoBehaviour
     void SetStage(int stage)
     {
         //배경과 보스 프리팹이 해당 스테이지에 존재하는지 확인
-        if (backgroundPrefabs.Length > stage && bossPrefabs.Length > stage)
+        if (backgroundPrefabs.Length > stage)// && bossPrefabs.Length > stage)
         {
             //해당 스테이지의 배경과 보스를 생성
             currentBackground = Instantiate(backgroundPrefabs[stage], transform);
-            currentBoss = Instantiate(bossPrefabs[stage], transform);
+            /*
 
+            currentBoss = Instantiate(bossPrefabs[stage], transform);
             //보스 오브젝트에서 BossForBG 컴포넌트를 가져오기
             BossForBG bossScript = currentBoss.GetComponent<BossForBG>();
 
@@ -75,6 +76,8 @@ public class StageManagerForBG : MonoBehaviour
                 //보스에게 StageManager를 알려주기 (보스가 죽으면 알려줄 수 있도록)
                 bossScript.stageManager = this;
             }
+
+            */
         }
     }
 }

@@ -9,6 +9,9 @@ TagManager:
   - Boss
   - Monster1
   - Shield
+  - BlackHole
+  - Monster2
+  - WhiteHole
   layers:
   - Default
   - TransparentFX

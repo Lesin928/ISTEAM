@@ -23,25 +23,29 @@ public class PlayerBullet : MonoBehaviour
     {
         Destroy(gameObject);
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Boss"))
-        {
-            collision.GetComponent<Boss3>().Damage(2);
-            Destroy(gameObject);
-        }
-        if (collision.gameObject.CompareTag("Shield"))
-        {
-            collision.GetComponent<BossShield>().Damage_Shield(5);
-            Destroy(gameObject);
-        }
-        if (collision.gameObject.CompareTag("Monster"))
-        {
-            collision.GetComponent<MiniShip1>().Damage(10);
-        }
-        if (collision.gameObject.CompareTag("Monster1"))
-        {
-            collision.GetComponent<MiniShip2>().Damage(10);
-        }
-    }
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    if (collision.gameObject.CompareTag("Boss"))
+    //    {
+    //        collision.GetComponent<Boss2>().Damage(1);
+    //        Destroy(gameObject);
+    //    }
+    //    if (collision.gameObject.CompareTag("Shield"))
+    //    {
+    //        collision.GetComponent<BossShield>().Damage_Shield(3);
+    //        Destroy(gameObject);
+    //    }
+    //    if (collision.gameObject.CompareTag("Monster"))
+    //    {
+    //        collision.GetComponent<MiniShip1>().Damage(10);
+    //    }
+    //    if (collision.gameObject.CompareTag("Monster1"))
+    //    {
+    //        collision.GetComponent<MiniShip2>().Damage(10);
+    //    }
+    //    if (collision.gameObject.CompareTag("Monster2"))
+    //    {
+    //        collision.GetComponent<MiniShip3>().Damage(10);
+    //    }
+    //}
 }

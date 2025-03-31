@@ -5,6 +5,6 @@ public class SceneChange : MonoBehaviour
 {
     public void OnClickStart()
     {
-        SceneManager.LoadScene("Main_UI");
+        SceneManager.LoadScene("GameScene");
     }
 }

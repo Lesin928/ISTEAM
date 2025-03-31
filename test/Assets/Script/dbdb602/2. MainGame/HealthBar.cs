@@ -13,7 +13,7 @@ public class HealthBar : MonoBehaviour
 
     //임시 테스트: Q키를 누르면 데미지 10 입히기
     void Update()
-    {
+    {/*
         // Q 키가 눌리면 데미지 10을 입힘
         if (Input.GetKeyDown(KeyCode.Q))
         {
@@ -21,6 +21,6 @@ public class HealthBar : MonoBehaviour
             Debug.Log("10데미지를 입었습니다.");
         }
 
-        UI_GameManager.instance.UpdateSunHP();
+        UI_GameManager.instance.UpdateSunHP();*/
     }
 }

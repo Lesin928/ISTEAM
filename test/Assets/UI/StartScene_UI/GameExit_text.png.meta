@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: 49a65637ded510f478ee9b8e3ec56000
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4143697469831239793
+    second: GameExit_text_0
+  - first:
+      213: 4257310723587464772
+    second: GameExit_text_1
+  - first:
+      213: -1966999338535247681
+    second: GameExit_text_2
+  - first:
+      213: 171194029281461327
+    second: GameExit_text_3
+  - first:
+      213: -4014730316503322563
+    second: GameExit_text_4
+  - first:
+      213: 4600077254355962312
+    second: GameExit_text_5
+  - first:
+      213: -4614861100439387254
+    second: GameExit_text_6
+  - first:
+      213: -5579317934546004491
+    second: GameExit_text_7
+  - first:
+      213: 6580021500633486235
+    second: GameExit_text_8
+  - first:
+      213: 42460318750820573
+    second: GameExit_text_9
+  - first:
+      213: 2091327164038483411
+    second: GameExit_text_10
+  - first:
+      213: 2158740312437715336
+    second: GameExit_text_11
+  - first:
+      213: 5062471398857125161
+    second: GameExit_text_12
+  - first:
+      213: 1611226368385036026
+    second: GameExit_text_13
+  - first:
+      213: 4288089001852473359
+    second: GameExit_text_14
+  - first:
+      213: -7057909683299137594
+    second: GameExit_text_15
+  - first:
+      213: -3294087927738902828
+    second: GameExit_text_16
+  - first:
+      213: -4363708261268724074
+    second: GameExit_text_17
+  - first:
+      213: -5369761120917246653
+    second: GameExit_text_18
+  - first:
+      213: 2142861747700261088
+    second: GameExit_text_19
+  - first:
+      213: -1059548856798725851
+    second: GameExit_text_20
+  - first:
+      213: 7138960660465460733
+    second: GameExit_text_21
+  - first:
+      213: 1356648951887475443
+    second: GameExit_text_22
+  - first:
+      213: -4270163200365336000
+    second: GameExit_text_23
+  - first:
+      213: 5022839035992715534
+    second: GameExit_text_24
+  - first:
+      213: -8319854668948654904
+    second: GameExit_text_25
+  - first:
+      213: -8757060810683266632
+    second: GameExit_text_26
+  - first:
+      213: -1821566333653306611
+    second: GameExit_text_27
+  - first:
+      213: 7578789640919264137
+    second: GameExit_text_28
+  - first:
+      213: 3932177660348365602
+    second: GameExit_text_29
+  - first:
+      213: 3431441851380432244
+    second: GameExit_text_30
+  - first:
+      213: -4789878067958995253
+    second: GameExit_text_31
+  - first:
+      213: -2806032239278566706
+    second: GameExit_text_32
+  - first:
+      213: 77313032204412109
+    second: GameExit_text_33
+  - first:
+      213: -9042889545521089269
+    second: GameExit_text_34
+  - first:
+      213: -4957398623835683546
+    second: GameExit_text_35
+  - first:
+      213: -8796964631211678471
+    second: GameExit_text_36
+  - first:
+      213: -9175871243739290705
+    second: GameExit_text_37
+  - first:
+      213: -1053977871398303326
+    second: GameExit_text_38
+  - first:
+      213: 8048289305854650650
+    second: GameExit_text_39
+  - first:
+      213: -5488727476492484552
+    second: GameExit_text_40
+  - first:
+      213: -1075183030018157788
+    second: GameExit_text_41
+  - first:
+      213: 6058851370252970573
+    second: GameExit_text_42
+  - first:
+      213: 8502461039242670281
+    second: GameExit_text_43
+  - first:
+      213: 4180885398591268956
+    second: GameExit_text_44
+  - first:
+      213: 7215484992246643824
+    second: GameExit_text_45
+  - first:
+      213: 4790045947576548235
+    second: GameExit_text_46
+  - first:
+      213: 8668511617238189283
+    second: GameExit_text_47
+  - first:
+      213: 6688842096020354786
+    second: GameExit_text_48
+  - first:
+      213: -2285795152077227695
+    second: GameExit_text_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GameExit_text_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 288
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fe9bb656e7a064287b16f680a33156
+      internalID: 1086937609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameExit_text_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 288
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768ae37577006e64cb30d2ab9a417938
+      internalID: -944739383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameExit_text_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 288
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674b9d164c15658478ea561393634133
+      internalID: 112031048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameExit_text_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 288
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16211284869c8f243a50ebe1a3fc9c56
+      internalID: -727632960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameExit_text_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 288
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8a6f82f8d41cd4db2b040dd6d362e7
+      internalID: 1102791623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameExit_text_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 288
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509ae4e0b918df64abad4da6d540b6f1
+      internalID: -2126348203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameExit_text_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 288
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1f2f3e368d25b4cba47ceeb9d71219
+      internalID: -1111679213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 883661f3d3b0acc419766416cacb5cbd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GameExit_text_0: 1086937609
+      GameExit_text_1: -944739383
+      GameExit_text_2: 112031048
+      GameExit_text_3: -727632960
+      GameExit_text_4: 1102791623
+      GameExit_text_5: -2126348203
+      GameExit_text_6: -1111679213
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
